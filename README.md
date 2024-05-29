@@ -62,6 +62,6 @@
 
 ### THANKS TO:
 - [***Fortunatus Mokaya***](https://github.com/Fortunatusmokaya) For several Cmds Addition.
-- [***Gifted Tech***](https://github.com/giftedtechnexus) For Genaral Help and Session Generation
+- [***Gifted Tech***](https://github.com/mouricedevs) For Genaral Help and Session Generation
 - [***Suhail Ser***](https://github.com/SuhailTechInfo) For Code encryption 
 - [***Luffy***](https://github.com/Luffy2ndAccount) For Providing a Base of **FLASH-MD**
