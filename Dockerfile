@@ -10,7 +10,7 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
   
 RUN git clone https://github.com/mouricedevs/Flash-MD.git  /root/FlashMd
-WORKDIR /root/FlashMd/
+WORKDIR /root/FlashMD/
 
 
 COPY package.json .
@@ -22,5 +22,3 @@ COPY . .
 EXPOSE 5000
 
 CMD ["node", "flash.js"]
-
-
