@@ -64,7 +64,7 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , make sure it starts with eyJub2I...",   
+      "description":"put your session ID , make sure it starts with FLASH-MD-WA-BOT;;;=>...",   
       "value":"",
       "required": true
 
@@ -87,7 +87,7 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "5"
   },
   "STARTING_BOT_MESSAGE":
   {
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   }  
   },
