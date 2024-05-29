@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/mouricedevs/Flash-MD.git  /root/flash
-WORKDIR /root/flash/
+RUN git clone https://github.com/mouricedevs/Flash-MD.git  /root/FlashMD
+WORKDIR /root/FlashMD/
 
 
 COPY package.json .
